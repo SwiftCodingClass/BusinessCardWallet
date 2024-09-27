@@ -11,7 +11,9 @@ import SwiftUI
 struct BusinessCardWallet_FinalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
