@@ -9,7 +9,9 @@ import SwiftUI
 
 struct NameCardView: View {
     @State var user: GitHubUser?
-    
+    // 에러 발생 플래그
+    @State var isError: Bool = false
+
     let name: String
     let repositoryName: String
 
@@ -74,8 +76,20 @@ struct NameCardView: View {
             }
         }
         .padding(.horizontal, 30)
+        // 에러 발생시 발생 할 Alert
+        .alert("에러 발생", isPresented: $isError, actions: {
+            Button("확인") {
+                isError = false
+            }
+        })
+
         .task {
-            self.user = try? await getUser(name: self.name)
+            // 에러처리
+            do {
+                self.user = try await getUser(name: self.name)
+            } catch {
+                isError = true
+            }
         }
     }
 
