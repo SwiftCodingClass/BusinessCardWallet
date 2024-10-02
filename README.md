@@ -1,11 +1,14 @@
-# BusinessCardWallet
+# 나만의 명함첩 앱 만들기 - 규니
 
-## 내가 배운 것
-1. **Playground**로 SwiftUI에 대해 가볍게 배워볼 수 있다.
-2. **Xcode 도구**에 대하여.
-3. **Xcode**를 사용하여 SwiftUI 만드는 방법.
-4. **HTTP API** 요청 및 응답 처리.
+## 어떤 것을 배웠나요?
+- Xcode를 사용하는 방법
+- NavigationStack, NavigationLink
+- URLSession, JSONDecoder
+
+## 당신의 결과물을 자랑해주세요.
+|리스트뷰|명함뷰|레포지토리뷰|
+|---|---|---|
+|<img width="300" alt="image" src="https://github.com/user-attachments/assets/9081af80-ae34-4a44-b87f-13394b56931c">|<img width="300" alt="image" src="https://github.com/user-attachments/assets/4249833e-4b7b-4899-9f10-7eaf6a49bb31">|<img width="300" alt="image" src="https://github.com/user-attachments/assets/c91b4051-dbe2-41d4-b2a1-f5734b550445">|
 
 ## 앞으로 무엇을 해볼 것인가요?
-1. **스위프트**의 좀 더 깊은 부분을 배워보고 싶어요!
-2. 실제 앱 중 비교적 **간단한 앱의 클론코딩**도 해보고 싶어요~
+> 나만의 앱 만들기를 시도해볼래요.
